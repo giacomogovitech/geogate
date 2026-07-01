@@ -4,38 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geogate | Ottimizzazione 3D Professionale</title>
-    
-    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="logo.svg">
-    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
     <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
-<body class="bg-white text-slate-900">
+<body class="bg-white text-slate-900 flex flex-col min-h-screen">
 
     <!-- Nav -->
-    <nav class="max-w-6xl mx-auto px-6 py-8 flex justify-between items-center">
+    <nav class="max-w-6xl w-full mx-auto px-6 py-8 flex justify-between items-center">
         <div class="flex items-center gap-3">
             <img src="logo.svg" alt="Geogate Logo" class="w-8 h-8">
             <span class="text-xl font-light tracking-widest text-slate-800">GEOGATE</span>
         </div>
         <div class="space-x-8 font-light text-slate-500">
-            <a href="#about" class="hover:text-blue-600 transition duration-300">About</a>
-            <a href="#" class="border border-slate-200 px-5 py-2 rounded-full hover:border-blue-600 hover:text-blue-600 transition duration-300">Beta Access</a>
+            <a href="#about" class="hover:text-blue-600 transition">About</a>
         </div>
     </nav>
 
     <!-- Header -->
-    <header class="max-w-3xl mx-auto px-6 pt-24 pb-32 text-center">
+    <header class="max-w-3xl mx-auto px-6 pt-24 pb-32 text-center flex-grow">
         <h1 class="text-5xl font-light tracking-tight text-slate-900 mb-8">
             Ottimizzazione 3D <span class="font-normal text-blue-600">senza compromessi</span>.
         </h1>
         <p class="text-lg text-slate-500 mb-12 leading-relaxed font-light">
             Geogate è l'infrastruttura automatizzata per trasformare asset CAD e scansioni complesse in modelli performanti.
         </p>
-        <button class="bg-slate-900 text-white px-10 py-4 rounded-full font-light hover:bg-blue-600 transition duration-300 shadow-sm">
+        <button class="bg-slate-900 text-white px-10 py-4 rounded-full font-light hover:bg-blue-600 transition shadow-sm">
             Richiedi Accesso Beta
         </button>
     </header>
@@ -43,24 +38,23 @@
     <!-- About Section -->
     <section id="about" class="max-w-4xl mx-auto px-6 py-24 border-t border-slate-100">
         <h2 class="text-3xl font-light text-slate-900 mb-12 text-center">Il Ponte Digitale tra Progetto e Realtà</h2>
-        
         <div class="space-y-8 text-slate-600 font-light leading-relaxed">
-            <p>
-                In un’era dove la complessità dei dati tecnici rappresenta una barriera, <strong>Geogate</strong> si pone come l’infrastruttura di riferimento per la <strong>conversione e ottimizzazione di asset 3D complessi</strong>. Colmiamo il divario tra il rigore dei mondi CAD/BIM e la flessibilità richiesta dagli ambienti di visualizzazione in tempo reale.
-            </p>
-            
-            <h3 class="text-xl font-normal text-slate-900 pt-4">Soluzioni strategiche per il tuo business</h3>
+            <p>In un’era dove la complessità dei dati tecnici rappresenta una barriera, <strong>Geogate</strong> si pone come l’infrastruttura di riferimento per la <strong>conversione e ottimizzazione di asset 3D complessi</strong>.</p>
             <ul class="list-disc list-inside space-y-4">
-                <li><strong>Industria Meccanica:</strong> Trasformiamo disegni tecnici in <strong>cataloghi 3D Web interattivi</strong> e <strong>manuali di manutenzione con realtà aumentata (AR)</strong>.</li>
-                <li><strong>Architettura e Costruzioni:</strong> Supportiamo il <strong>visualizzatore AR per cantiere</strong>, permettendo la sovrapposizione digitale impeccabile dei progetti.</li>
-                <li><strong>Game Development:</strong> Forniamo agli sviluppatori <strong>asset game-ready</strong> ottimizzati per Unity e Unreal Engine, con topologia pulita.</li>
+                <li><strong>Industria Meccanica:</strong> Cataloghi 3D Web e manuali AR.</li>
+                <li><strong>Architettura:</strong> Visualizzatori AR per cantiere.</li>
+                <li><strong>Game Development:</strong> Asset game-ready ottimizzati.</li>
             </ul>
-
-            <p>
-                Non ci limitiamo a convertire formati; <strong>ottimizziamo il valore dei tuoi dati</strong>. Grazie a una pipeline proprietaria di <strong>elaborazione automatizzata in cloud</strong>, Geogate è il partner ideale per le aziende che desiderano integrare la <strong>Realtà Aumentata</strong> nei propri flussi di lavoro.
-            </p>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-50 py-12 mt-auto">
+        <div class="max-w-6xl mx-auto px-6 text-center text-slate-500 font-light text-sm">
+            <p>&copy; 2026 Geogate. Tutti i diritti riservati.</p>
+            <p class="mt-2">Innovazione 3D e Soluzioni AR per l'Industria.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
